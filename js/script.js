@@ -1,4 +1,3 @@
-// Lógica do botão Seguir
 const btnSeguir = document.getElementById('btn-seguir');
 
 btnSeguir.addEventListener('click', () => {
@@ -11,7 +10,6 @@ btnSeguir.addEventListener('click', () => {
     }
 });
 
-// Lógica do Botão de Tema
 const btnTema = document.getElementById('btn-tema');
 const body = document.body;
 

@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s; /* Transição suave para o tema */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Variáveis de cor para o Tema Escuro (Padrão) */
 :root {
     --bg-body: #121212;
     --bg-card: #1e1e1e;
@@ -17,7 +16,6 @@
     --success: #22c55e;
 }
 
-/* Variáveis de cor para o Tema Claro */
 body.light-mode {
     --bg-body: #f3f4f6;
     --bg-card: #ffffff;
@@ -34,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column; /* Para o botão de tema ficar em cima */
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -85,7 +83,6 @@ h2 {
     line-height: 1.4;
 }
 
-/* Estilo das Habilidades */
 .habilidades {
     display: flex;
     justify-content: center;
