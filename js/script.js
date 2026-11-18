@@ -1,11 +1,18 @@
-const btn = document.getElementById('btn-seguir');
+const btnSeguir = document.getElementById('btn-seguir');
 
-btn.addEventListener('click', () => {
-    if (btn.textContent === 'Seguir') {
-        btn.textContent = 'Seguindo';
-        btn.classList.add('seguindo');
+btnSeguir.addEventListener('click', () => {
+    if (btnSeguir.textContent === 'Seguir') {
+        btnSeguir.textContent = 'Seguindo';
+        btnSeguir.classList.add('seguindo');
     } else {
-        btn.textContent = 'Seguir';
-        btn.classList.remove('seguindo');
+        btnSeguir.textContent = 'Seguir';
+        btnSeguir.classList.remove('seguindo');
     }
+});
+
+const btnTema = document.getElementById('btn-tema');
+const body = document.body;
+
+btnTema.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
 });
